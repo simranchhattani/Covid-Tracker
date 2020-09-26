@@ -1,0 +1,62 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link = rel="stylesheet" href="css/homepage_style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link = rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link = rel="stylesheet" href="{% static 'covid/frontend.css' %}">
+  
+
+</head>
+<body>
+<br>
+<br>
+<br>
+<center><h1> COVID-19 TRACKER </h1></center>
+<div class="container">
+  <div class="row">
+  <div class="col-md-6">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<table style="width:100%">
+  <tr>
+    <th>CONFIRMED CASES</th>
+    <th>ACTIVE CASES</th>
+    <th>RECOVERED CASES </th>
+    <th>DEATHS</th>
+  </tr>
+  <tr>
+    <td>{{total}}</td>
+    <td style="color: red">{{active}}</td>
+    <td style="color: forestgreen">{{recovered}}</td>
+    <td style="color: blue">{{deaths}}</td>
+  </tr>
+  <enter><CAPTION><mark>Overview of Covid-19 Cases in INDIA</mark></CAPTION></center>
+</table>
+  </div>
+  <div class="col-md-6">
+    <div class="Covid_Pie_Chart">
+    <img  src="static\covid\Covid_Pie_Chart.png"  width="450">
+  </div>
+  </div>
+  </div>
+
+<br>
+<br>
+
+
+
+</body>
+</html>

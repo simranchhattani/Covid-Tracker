@@ -1,0 +1,64 @@
+h1 {
+	text-align: center;
+	font-size: 3em;
+	font-weight: bold;
+	color: white;
+
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: white;
+  font-size: 20px;
+  border-color: #FFA500;
+  
+  border-spacing: 20px;
+  border-width: 20px;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+th, td {
+  padding: 10px;
+  border-radius: 20px;
+}
+
+body {
+  background-image: url('covid.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+
+mark {
+	background-color: #FFA500;
+	color: white;
+}
+img {
+  border: 6px solid #555;
+
+  
+}
+
+.Covid_Pie_Chart  {
+	padding-bottom: 30px;
+  padding-top: 80px;
+  padding-left: 50px;
+
+ 
+}
+
+caption {
+	font: 50px;
+	font-weight: bold;
+	text-align: center;
+
+
+}
+
+
+
+
